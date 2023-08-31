@@ -1,6 +1,6 @@
 //Write a java program to check whether given String is palindrome or not
 import java.io.*;
-public class p1_6
+public class p1_1
 {
 	public static void main(String args[])throws IOException
 	{
