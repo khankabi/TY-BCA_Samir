@@ -1,3 +1,4 @@
+#C:\Users\Pc11\AppData\Local\GitHubDesktop
 """ Write a python script to generate the following pattern upto n lines.
                 1
             1  2  1
