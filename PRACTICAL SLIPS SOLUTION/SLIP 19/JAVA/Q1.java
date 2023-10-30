@@ -1,5 +1,24 @@
-package SLIP 10;
+// Write a Java program to display Fibonacci series using function.
+import java.util.Scanner;
+class q1 {
+    static void fibo() {
+        int i,a,b,c,n;
+        Scanner scan=new Scanner(System.in);
+        try {
+            System.out.print("Enter Number : ");
+            n = scan.nextInt();
+            a = b = 1;
+            System.out.print("The Fibonacci sequence: " + a + " " + b);
 
-public class Q1 {
-    
+            for(i=1; i<=n-2; i++){
+                c = a + b;
+                System.out.print(" "+c);
+                a = b;
+                b = c;
+            }
+        } catch (Exception e) {}
+      }
+    public static void main(String args[]){
+        fibo();
+    }
 }

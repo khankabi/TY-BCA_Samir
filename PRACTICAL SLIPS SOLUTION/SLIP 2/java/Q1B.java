@@ -53,6 +53,6 @@ class Q1B
 {
                 public static void main(String args[])
                 {
-                                // MyFrame f = new MyFrame("Slip Number 2");
+                                MyFrame f = new MyFrame("Slip Number 2");
                 }
 }
