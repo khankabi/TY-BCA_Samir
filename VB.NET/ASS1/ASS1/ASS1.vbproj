@@ -5,12 +5,12 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E97809BA-4D68-4FB8-9A45-ABE723A881FE}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <StartupObject>ASS1.My.MyApplication</StartupObject>
+    <OutputType>Exe</OutputType>
+    <StartupObject>ASS1.Module2</StartupObject>
     <RootNamespace>ASS1</RootNamespace>
     <AssemblyName>ASS1</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -85,6 +85,8 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Module2.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

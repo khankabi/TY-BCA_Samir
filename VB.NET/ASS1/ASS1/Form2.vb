@@ -26,4 +26,4 @@
         numconverter = Integer.Parse(TextBox1.Text)
         TextBox2.Text = Convert.ToString(numconverter, 16)
     End Sub
-End Class/85.3/
+End Class
