@@ -9,3 +9,4 @@ D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.vbproj.GenerateResource.Cache
 D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.exe
 D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.xml
 D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.pdb
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.Form2.resources

@@ -26,6 +26,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'Label1
@@ -68,12 +69,23 @@ Partial Class Form1
         Me.TextBox1.Size = New System.Drawing.Size(222, 20)
         Me.TextBox1.TabIndex = 4
         '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(559, 138)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(59, 13)
+        Me.LinkLabel1.TabIndex = 5
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "LinkLabel1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PeachPuff
         Me.ClientSize = New System.Drawing.Size(1055, 294)
+        Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -90,4 +102,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class
