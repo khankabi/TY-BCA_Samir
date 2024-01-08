@@ -1,0 +1,11 @@
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\bin\Debug\ASS1.exe.config
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\bin\Debug\ASS1.exe
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\bin\Debug\ASS1.pdb
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\bin\Debug\ASS1.xml
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.vbprojResolveAssemblyReference.cache
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.Form1.resources
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.Resources.resources
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.vbproj.GenerateResource.Cache
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.exe
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.xml
+D:\TY-BCA_Samir\VB.NET\ASS1\ASS1\obj\Debug\ASS1.pdb
