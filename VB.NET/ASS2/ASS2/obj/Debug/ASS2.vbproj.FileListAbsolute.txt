@@ -1,0 +1,13 @@
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\bin\Debug\ASS2.exe.config
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\bin\Debug\ASS2.exe
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\bin\Debug\ASS2.pdb
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\bin\Debug\ASS2.xml
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.vbprojResolveAssemblyReference.cache
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.SETA_1.resources
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.Resources.resources
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.vbproj.GenerateResource.Cache
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.exe
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.xml
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.pdb
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.SETA_2.resources
+E:\TY-BCA_Samir\VB.NET\ASS2\ASS2\obj\Debug\ASS2.SETA_3.resources
