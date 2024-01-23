@@ -126,6 +126,12 @@
     <Compile Include="SETB_3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SETC_1.Designer.vb">
+      <DependentUpon>SETC_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SETC_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SETA_1.resx">
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SETB_3.resx">
       <DependentUpon>SETB_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SETC_1.resx">
+      <DependentUpon>SETC_1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

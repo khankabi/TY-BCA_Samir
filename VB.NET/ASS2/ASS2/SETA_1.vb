@@ -3,7 +3,6 @@
         ListBox1.Items.Add(TextBox1.Text)
         TextBox1.Text = ""
     End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim i As Integer
         Dim cnt As Integer

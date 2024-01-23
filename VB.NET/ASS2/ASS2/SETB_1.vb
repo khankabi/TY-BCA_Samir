@@ -37,5 +37,4 @@
         End If
         MessageBox.Show("Max is= " & max & " " & vbCrLf & "Min is= " & min)
     End Sub
-
 End Class

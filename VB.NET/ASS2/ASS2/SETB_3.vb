@@ -1,4 +1,4 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+﻿'Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class SETB_3
     Dim a(5), i As Integer
