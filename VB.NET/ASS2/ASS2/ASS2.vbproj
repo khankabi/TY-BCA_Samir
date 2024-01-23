@@ -11,8 +11,9 @@
     <AssemblyName>ASS2</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -83,6 +84,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -106,6 +108,24 @@
     <Compile Include="SETA_3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SETB_1.Designer.vb">
+      <DependentUpon>SETB_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SETB_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SETB_2.Designer.vb">
+      <DependentUpon>SETB_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SETB_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SETB_3.Designer.vb">
+      <DependentUpon>SETB_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SETB_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SETA_1.resx">
@@ -122,6 +142,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SETA_3.resx">
       <DependentUpon>SETA_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SETB_1.resx">
+      <DependentUpon>SETB_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SETB_2.resx">
+      <DependentUpon>SETB_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SETB_3.resx">
+      <DependentUpon>SETB_3.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
