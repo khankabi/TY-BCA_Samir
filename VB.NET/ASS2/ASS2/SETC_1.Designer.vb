@@ -23,25 +23,25 @@ Partial Class SETC_1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.rd40 = New System.Windows.Forms.RadioButton()
+        Me.rd1940 = New System.Windows.Forms.RadioButton()
+        Me.rd18 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.chkright = New System.Windows.Forms.CheckBox()
+        Me.chkcant = New System.Windows.Forms.CheckBox()
+        Me.chkcan = New System.Windows.Forms.CheckBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rdcustom = New System.Windows.Forms.RadioButton()
+        Me.rdfemale = New System.Windows.Forms.RadioButton()
+        Me.rdmale = New System.Windows.Forms.RadioButton()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -60,14 +60,146 @@ Partial Class SETC_1
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         '
-        'Label1
+        'Button1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(53, 35)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 16)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Name"
+        Me.Button1.Location = New System.Drawing.Point(256, 34)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(76, 23)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "OK"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.rd40)
+        Me.GroupBox4.Controls.Add(Me.rd1940)
+        Me.GroupBox4.Controls.Add(Me.rd18)
+        Me.GroupBox4.Location = New System.Drawing.Point(209, 83)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(123, 125)
+        Me.GroupBox4.TabIndex = 3
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Age"
+        '
+        'rd40
+        '
+        Me.rd40.AutoSize = True
+        Me.rd40.Location = New System.Drawing.Point(6, 88)
+        Me.rd40.Name = "rd40"
+        Me.rd40.Size = New System.Drawing.Size(88, 20)
+        Me.rd40.TabIndex = 2
+        Me.rd40.TabStop = True
+        Me.rd40.Text = "Above 40"
+        Me.rd40.UseVisualStyleBackColor = True
+        '
+        'rd1940
+        '
+        Me.rd1940.AutoSize = True
+        Me.rd1940.Location = New System.Drawing.Point(6, 62)
+        Me.rd1940.Name = "rd1940"
+        Me.rd1940.Size = New System.Drawing.Size(65, 20)
+        Me.rd1940.TabIndex = 1
+        Me.rd1940.TabStop = True
+        Me.rd1940.Text = "19-40"
+        Me.rd1940.UseVisualStyleBackColor = True
+        '
+        'rd18
+        '
+        Me.rd18.AutoSize = True
+        Me.rd18.Location = New System.Drawing.Point(6, 36)
+        Me.rd18.Name = "rd18"
+        Me.rd18.Size = New System.Drawing.Size(111, 20)
+        Me.rd18.TabIndex = 0
+        Me.rd18.TabStop = True
+        Me.rd18.Text = "Less than 18"
+        Me.rd18.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.chkright)
+        Me.GroupBox3.Controls.Add(Me.chkcant)
+        Me.GroupBox3.Controls.Add(Me.chkcan)
+        Me.GroupBox3.Location = New System.Drawing.Point(35, 232)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(123, 125)
+        Me.GroupBox3.TabIndex = 3
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Right"
+        '
+        'chkright
+        '
+        Me.chkright.AutoSize = True
+        Me.chkright.Location = New System.Drawing.Point(6, 88)
+        Me.chkright.Name = "chkright"
+        Me.chkright.Size = New System.Drawing.Size(80, 20)
+        Me.chkright.TabIndex = 2
+        Me.chkright.Text = "All Right"
+        Me.chkright.UseVisualStyleBackColor = True
+        '
+        'chkcant
+        '
+        Me.chkcant.AutoSize = True
+        Me.chkcant.Location = New System.Drawing.Point(6, 62)
+        Me.chkcant.Name = "chkcant"
+        Me.chkcant.Size = New System.Drawing.Size(99, 20)
+        Me.chkcant.TabIndex = 1
+        Me.chkcant.Text = "Can't Drive"
+        Me.chkcant.UseVisualStyleBackColor = True
+        '
+        'chkcan
+        '
+        Me.chkcan.AutoSize = True
+        Me.chkcan.Location = New System.Drawing.Point(6, 36)
+        Me.chkcan.Name = "chkcan"
+        Me.chkcan.Size = New System.Drawing.Size(87, 20)
+        Me.chkcan.TabIndex = 0
+        Me.chkcan.Text = "Drive Car"
+        Me.chkcan.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rdcustom)
+        Me.GroupBox2.Controls.Add(Me.rdfemale)
+        Me.GroupBox2.Controls.Add(Me.rdmale)
+        Me.GroupBox2.Location = New System.Drawing.Point(35, 83)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(123, 125)
+        Me.GroupBox2.TabIndex = 2
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Gender"
+        '
+        'rdcustom
+        '
+        Me.rdcustom.AutoSize = True
+        Me.rdcustom.Location = New System.Drawing.Point(6, 88)
+        Me.rdcustom.Name = "rdcustom"
+        Me.rdcustom.Size = New System.Drawing.Size(75, 20)
+        Me.rdcustom.TabIndex = 2
+        Me.rdcustom.TabStop = True
+        Me.rdcustom.Text = "Custom"
+        Me.rdcustom.UseVisualStyleBackColor = True
+        '
+        'rdfemale
+        '
+        Me.rdfemale.AutoSize = True
+        Me.rdfemale.Location = New System.Drawing.Point(6, 62)
+        Me.rdfemale.Name = "rdfemale"
+        Me.rdfemale.Size = New System.Drawing.Size(72, 20)
+        Me.rdfemale.TabIndex = 1
+        Me.rdfemale.TabStop = True
+        Me.rdfemale.Text = "Female"
+        Me.rdfemale.UseVisualStyleBackColor = True
+        '
+        'rdmale
+        '
+        Me.rdmale.AutoSize = True
+        Me.rdmale.Location = New System.Drawing.Point(6, 36)
+        Me.rdmale.Name = "rdmale"
+        Me.rdmale.Size = New System.Drawing.Size(56, 20)
+        Me.rdmale.TabIndex = 0
+        Me.rdmale.TabStop = True
+        Me.rdmale.Text = "Male"
+        Me.rdmale.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
@@ -77,146 +209,14 @@ Partial Class SETC_1
         Me.TextBox1.Size = New System.Drawing.Size(132, 23)
         Me.TextBox1.TabIndex = 1
         '
-        'GroupBox2
+        'Label1
         '
-        Me.GroupBox2.Controls.Add(Me.RadioButton3)
-        Me.GroupBox2.Controls.Add(Me.RadioButton2)
-        Me.GroupBox2.Controls.Add(Me.RadioButton1)
-        Me.GroupBox2.Location = New System.Drawing.Point(35, 83)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(123, 125)
-        Me.GroupBox2.TabIndex = 2
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Gender"
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 36)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(55, 20)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Male"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 62)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(71, 20)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Female"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(6, 88)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(74, 20)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Custom"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.CheckBox3)
-        Me.GroupBox3.Controls.Add(Me.CheckBox2)
-        Me.GroupBox3.Controls.Add(Me.CheckBox1)
-        Me.GroupBox3.Location = New System.Drawing.Point(35, 232)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(123, 125)
-        Me.GroupBox3.TabIndex = 3
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Right"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(6, 36)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(86, 20)
-        Me.CheckBox1.TabIndex = 0
-        Me.CheckBox1.Text = "Drive Car"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(6, 62)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(98, 20)
-        Me.CheckBox2.TabIndex = 1
-        Me.CheckBox2.Text = "Can't Drive"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(6, 88)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(79, 20)
-        Me.CheckBox3.TabIndex = 2
-        Me.CheckBox3.Text = "All Right"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.RadioButton4)
-        Me.GroupBox4.Controls.Add(Me.RadioButton5)
-        Me.GroupBox4.Controls.Add(Me.RadioButton6)
-        Me.GroupBox4.Location = New System.Drawing.Point(209, 83)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(123, 125)
-        Me.GroupBox4.TabIndex = 3
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Age"
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(6, 88)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(87, 20)
-        Me.RadioButton4.TabIndex = 2
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Above 40"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'RadioButton5
-        '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(6, 62)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(64, 20)
-        Me.RadioButton5.TabIndex = 1
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "19-40"
-        Me.RadioButton5.UseVisualStyleBackColor = True
-        '
-        'RadioButton6
-        '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(6, 36)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(110, 20)
-        Me.RadioButton6.TabIndex = 0
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Less than 18"
-        Me.RadioButton6.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(256, 34)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(76, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "OK"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(53, 35)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(44, 16)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Name"
         '
         'SETC_1
         '
@@ -228,12 +228,12 @@ Partial Class SETC_1
         Me.Text = "SETC_1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -243,15 +243,15 @@ Partial Class SETC_1
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents rd40 As RadioButton
+    Friend WithEvents rd1940 As RadioButton
+    Friend WithEvents rd18 As RadioButton
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents chkright As CheckBox
+    Friend WithEvents chkcant As CheckBox
+    Friend WithEvents chkcan As CheckBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents rdcustom As RadioButton
+    Friend WithEvents rdfemale As RadioButton
+    Friend WithEvents rdmale As RadioButton
 End Class

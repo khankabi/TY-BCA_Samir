@@ -11,7 +11,7 @@
     <AssemblyName>ASS2</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -132,6 +132,12 @@
     <Compile Include="SETC_1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SETC_2.Designer.vb">
+      <DependentUpon>SETC_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SETC_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SETA_1.resx">
@@ -161,6 +167,9 @@
     <EmbeddedResource Include="SETC_1.resx">
       <DependentUpon>SETC_1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SETC_2.resx">
+      <DependentUpon>SETC_2.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -176,6 +185,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wallpaperflare.com_wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clear.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
