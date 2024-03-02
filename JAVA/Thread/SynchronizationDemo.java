@@ -6,17 +6,16 @@ class MyThread extends Thread {
         super(name);
     }
 
-    public void run() {
-        display(getName());
-        System.out.println("Exit From" + getName());
-    }
-
     synchronized void display(String name) {
         for (int i = 0; i < msg.length; i++) {
             System.out.println(name + msg[i]);
         }
     }
 
+    public void run() {
+        display(getName());
+        System.out.println("Exit From" + getName());
+    }
 }
 
 // main class

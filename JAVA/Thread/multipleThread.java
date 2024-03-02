@@ -12,7 +12,7 @@ class MyThread extends Thread {
                 System.out.println(message + "-" + i);
                 Thread.sleep(5000);// sleep for 5 seconds
             }
-        } catch (InterruptedException ie) {
+        } catch (InterruptedException e) {
         }
     }
 }

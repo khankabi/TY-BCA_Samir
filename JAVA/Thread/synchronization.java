@@ -2,7 +2,7 @@
 
 class Table {
     synchronized void printTable(int n) {
-        for (int i = 1; i !=10; i++) {
+        for (int i = 1; i != 10; i++) {
             System.out.println(n * i);
             try {
                 Thread.sleep(400);
@@ -44,7 +44,7 @@ public class synchronization {
         Table obj = new Table();
         MyThread1 t1 = new MyThread1(obj);
         MyThread2 t2 = new MyThread2(obj);
-        t1.start();	
+        t1.start();
         t2.start();
     }
 }
